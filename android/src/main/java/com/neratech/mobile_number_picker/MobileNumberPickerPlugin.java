@@ -31,7 +31,7 @@ public class MobileNumberPickerPlugin implements FlutterPlugin, MethodCallHandle
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "mobile_number");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "com.neratech.mobile_number_picker/mobile_number_picker");
     channel.setMethodCallHandler(this);
     context = flutterPluginBinding.getApplicationContext();
   }

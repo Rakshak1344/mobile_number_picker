@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mobile_number_picker/mobile_number_picker.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('mobile_number_picker');
+  const MethodChannel channel = MethodChannel('com.neratech.mobile_number_picker/mobile_number_picker');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

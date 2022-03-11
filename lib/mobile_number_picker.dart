@@ -5,7 +5,7 @@ final String defaultNumber = '1234567890';
 final String defaultCountryCode = '+91';
 
 class MobileNumberPicker {
-  static const MethodChannel _channel = const MethodChannel('mobile_number');
+  static const MethodChannel _channel = const MethodChannel('com.neratech.mobile_number_picker/mobile_number_picker');
 
   ///Listen to events using stream
   StreamController<MobileNumber?>? _streamController =
